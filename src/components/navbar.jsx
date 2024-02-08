@@ -28,7 +28,7 @@ const SocialMedia = () => {
 export default function Navbar() {
     const [open, setOpen] = useState(false)
   return (
-    <div className='bg-transparent h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48'>
+    <div className='bg-transparent h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
      <div className='hidden md:flex gap-6 text-white font-semibold'>
         {
             links.map((link, index) =>(
